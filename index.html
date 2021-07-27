@@ -15,38 +15,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
        		 <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'> <!-- need to remove this -->
 		
-		<script>
-			$(document).ready(function(){
-  			// Add smooth scrolling to all links
-  			$("a").on('click', function(event) {
-
-    			// Make sure this.hash has a value before overriding default behavior
-    			if (this.hash !== "") {
-      			// Prevent default anchor click behavior
-      			event.preventDefault();
-
-      			// Store hash
-      			var hash = this.hash;
-
-      			// Using jQuery's animate() method to add smooth page scroll
-      			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      			$('html, body').animate({
-        		scrollTop: $(hash).offset().top
-     			 }, 800, function(){
-   
-      			  // Add hash (#) to URL when done scrolling (default click behavior)
-       			 window.location.hash = hash;
-      			});
-   			 } // End if
- 			 });
-			});
-		</script>
 		
 		
-	
+	<header class="header-area header-sticky">
+		background-color: #666;
+  			padding: 30px;
+  			text-align: center;
+  			font-size: 35px;
+  			color: white;
 		
-		
-		<header class="header-area header-sticky">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -93,8 +70,39 @@
 		}
         </header>
 		
+		
+	<script>
+			$(document).ready(function(){
+  			// Add smooth scrolling to all links
+  			$("a").on('click', function(event) {
+
+    			// Make sure this.hash has a value before overriding default behavior
+    			if (this.hash !== "") {
+      			// Prevent default anchor click behavior
+      			event.preventDefault();
+
+      			// Store hash
+      			var hash = this.hash;
+
+      			// Using jQuery's animate() method to add smooth page scroll
+      			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      			$('html, body').animate({
+        		scrollTop: $(hash).offset().top
+     			 }, 800, function(){
+   
+      			  // Add hash (#) to URL when done scrolling (default click behavior)
+       			 window.location.hash = hash;
+      			});
+   			 } // End if
+ 			 });
+			});
+	</script>
+		
+		
+		
+		
 	
-		<style>
+	<style>
 		#section1 {
   		height: 300px;
   		background-color: white;
@@ -104,7 +112,7 @@
  		 height: 300px;
   		background-color: white;
 		}
-		</style>
+	</style>
 		<!-- END OF CODE FOR SCROLLING THROUGH SECTIONS-->
 		
 		
