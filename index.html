@@ -26,27 +26,48 @@
 		}
 		
 	header {
-  		background-color: #666;
+  		/*background-color: #666;*/
   		padding: 30px;
   		text-align: center;
   		font-size: 35px;
   		color: white;
 	}
 		
+
+	li {
+		float: left;
+		justify-content: space-between;
+	}
 	
 	nav {
-  		-webkit-flex: 1;
-  		-ms-flex: 1;
-  		flex: 1;
+		float: right;
+		display: block;
+		text-align: center;
+		/*width: 100%;*/
+  		/*-webkit-flex: 1;*/
+  		/*-ms-flex: 1;*/
+  		/*flex: 1;*/
   		background: #ccc;
-  		padding: 20px;
+  		padding: 14px ;
+  		font-size: 20px;
 	}
 		
 	nav ul {
   		list-style-type: none;
   		padding: 0;
+
 	}
-		
+	
+	nav li {
+   margin-right: 40px;
+   list-style: none;
+   text-decoration: none;
+   display: inline;
+}
+
+nav li a {
+   text-decoration: none;
+}
 	
 	section::after {
   		content: "";
@@ -118,30 +139,29 @@
 		
 		
 		
-	<header class = "header-area header-sticky>
+	<header class = "header-area header-sticky">
 		<div class="row">
 			<div class ="col-12">
 				<nav class="main-nav">
-					<a href="index.html" class="logo">
-                                SAE
-                            </a>
+					
 								
-  <h2>SAE</h2>
+ <!-- <h2>SAE</h2> -->
 
 
 <section>
   <nav>
     <ul>
-      <li><a href="#">About FSAE!</a></li>
-      <li><a href="#">Meet the Team</a></li>
-      <li><a href="#">Our Process</a></li>
-      <li><a href="#">Goals</a></li>
-      <li><a href="#">Sponsorship Opportunities</a></li>
-      <li><a href="#">Donation Form</a></li>
+      <li><a href="#hero">Home </a></li>
+      <li><a href="#AboutFSAE">About FSAE! </a></li>
+      <li><a href="#">Meet the Team </a></li>
+      <li><a href="#">Our Process </a></li>
+      <li><a href="#">Goals </a></li>
+      <li><a href="#">Sponsorship Opportunities </a></li>
+      <li><a href="#">Donation Form </a></li>
 	   
     </ul>
     <a class="menu-trigger">
-	<span>Menu</span>
+	<!-- <span>Menu</span> -->
     </a>
   </nav>
  </nav>
@@ -150,7 +170,24 @@
 		
 	</header>	
 		
-		     
+	
+
+	<div class="hero-area" id="hero">
+            <div class="hero-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
+                             data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                            <h1>SAE<em> UTSA</em></h1>
+                            <i class="hero-icon fa fa-chevron-down" aria-hidden="true"></i>
+    <!--                        <p>Lava <a href="#">HTML landing page</a> template is provided by <a href="#">TemplateMo</a>.-->
+    <!--                            You can modify and use it for your commercial websites for free of charge. This template is last updated on 29 Oct 2019.</p>-->
+    <!--                        <a href="#tracks" class="main-button-slider">register now</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
 		     
 		     
 		     
