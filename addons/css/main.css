@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Palanquin:wght@300&display=swap');
 
 html, body {
-  font-family: var(--primaryFontStyle);
-  font-weight: 400;
+  /*font-family: var(--primaryFontStyle);*/
+  /*font-weight: 400;*/
+  font-family: 'Happy Monkey', cursive;
 }
+
+
