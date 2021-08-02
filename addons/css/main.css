@@ -4,9 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Palanquin:wght@300&display=swap');
 
 html, body {
-  /*font-family: var(--primaryFontStyle);*/
-  /*font-weight: 400;*/
-  font-family: 'Happy Monkey', cursive;
+  font-family: var(--primaryFontStyle);
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body {
+  background: var(--primaryBackground);
+  font-family: var(--primaryFontStyle);
+}
 
