@@ -48,15 +48,14 @@
 		font-family: 'Bebas Neue', cursive;
 		letter-spacing: 2px;
 		position: relative; 
-		font-size: 20px;
+		font-size: 25px;
     		white-space: normal;
 		}
 		
-		@media (max-width: 600px) {
-  		AboutFSAE {
-    		width: 100%;
-    		height: auto;
-  		}
+		@media only screen and (max-width: 300px) {
+  		#AboutFSAE {font-size: 11px}
+		}
+  		
 
 		#MeetTheTeam {
  		height: 200px;
@@ -194,7 +193,7 @@
   display: none;
   
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
    float: right;
@@ -202,7 +201,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
