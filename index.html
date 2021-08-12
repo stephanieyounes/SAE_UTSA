@@ -44,9 +44,9 @@
     			left: 50%;		
 		}*/
 		
-		#AboutFSAE {
+		AboutFSAE {
   		height: 300px;
-  		/*background-color: white;*/
+  		background-color: lightblue;
 		font-family: 'Bebas Neue', cursive;
 		letter-spacing: 2px;
 		position: relative; 
@@ -54,6 +54,10 @@
     		white-space: normal;
 		color: #484848;
 		}
+		@media only screen and (max-width: 600px) {
+  		AboutFSAE {
+   			background-color: lightblue;
+  		}
 		
 		.table.a {
 		table-layout: auto;
@@ -578,8 +582,9 @@ function showSlides(n) {
 
 
    		<!--<div id="wrap">-->
-			<div class="main" id="AboutFSAE">
-				<div style="text-align: left; width: 700px; margin: 0 auto;">
+			<!--<div class="main" id="AboutFSAE">-->
+			<div class = "AboutFSAE">
+				<!--<div style="text-align: left; width: 700px; margin: 0 auto;">-->
 				<h1>About FSAE</h1>
 			<!-- <p>Click on the link to see the "smooth" scrolling effect.</p> -->
   		The Formula SAE competitions challenge teams of university students to conceive, design, fabricate, develop,
@@ -622,7 +627,7 @@ function showSlides(n) {
   			<a href="#hero">Click Me to go back to the top</a>
 	
 				</div>		  					
-			</div>
+			<!--</div> for style div-->
 	
 	<!--<div id="wrap">-->
 		<div class="main" id="MeetTheTeam">
