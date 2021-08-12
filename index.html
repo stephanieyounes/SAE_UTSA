@@ -59,11 +59,17 @@
 		color: #000000;	
 		font-family: 'Montserrat', sans-serif;
 		}
-		.table {
+		.table.a {
 		table-layout: auto;
- 		width: 180px; 
-		
-			
+ 		width: 180px; 	
+		}
+		table {
+  			border-collapse: collapse;
+ 			border: 1px solid black;
+		} 
+
+		th,td {
+  			border: 1px solid black;
 		}
 		
 	
@@ -588,7 +594,7 @@ function showSlides(n) {
   		Events are broken down in static and dynamic: <br>
 
 		<div class = "events">
-		<div class = "table">
+		<table class="a">
   		<tr>
     		<th>Static</th>
    		<th>Dynamic</th>
@@ -615,7 +621,7 @@ function showSlides(n) {
   		</tr>
 
 			
-		</div>
+		</table>
 		</div>
 
   			<a href="#hero">Click Me to go back to the top</a>
