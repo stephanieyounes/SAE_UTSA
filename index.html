@@ -55,10 +55,6 @@
 		color: #484848;
 		}
 		
-		.events {
-		color: #000000;	
-		font-family: 'Montserrat', sans-serif;
-		}
 		.table.a {
 		table-layout: auto;
  		width: 180px; 	
@@ -395,7 +391,7 @@ img {vertical-align: middle;}
 	<script>
 			$(document).ready(function(){
   			// Add smooth scrolling to all links
-  			$("a").on('click', function(event) {
+  			$("a").on('click', function() {
 
     			// Make sure this.hash has a value before overriding default behavior
     			if (this.hash !== "") {
@@ -592,7 +588,7 @@ function showSlides(n) {
 
   		Events are broken down in static and dynamic: <br>
 
-		<div class = "events">
+		
 		<table class="a">
   		<tr>
     		<th>Static</th>
@@ -621,7 +617,7 @@ function showSlides(n) {
 
 			
 		</table>
-		</div>
+		
 
   			<a href="#hero">Click Me to go back to the top</a>
 	
