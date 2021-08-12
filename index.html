@@ -73,7 +73,7 @@
 		
 	
   		
-		#MeetTheTeam {
+		.MeetTheTeam {
  		height: 200px;
 		font-family: 'Bebas Neue', cursive;
 		letter-spacing: 2px;
@@ -83,10 +83,14 @@
 		text-align: center;
 		color: #484848;
   		}
+			@media only screen and (max-width: 600px) {
+  		.MeetTheTeam {
+   			background-color: lightblue;
+  		}
 
 
       /* OUR PROCESS SECITON */
-  		#OurProcess {
+  		.OurProcess {
  		height: 200px;
 		font-family: 'Bebas Neue', cursive;
 		letter-spacing: 2px;
@@ -99,9 +103,10 @@
     		z-index: 9;
 		color: #484848;
     }
-		@media only screen and (max-width: 150px) {
-  		#OurProcess {font-size: 8px}
-		}
+		@media only screen and (max-width: 600px) {
+  		.OurProcess {
+   			background-color: lightblue;
+  		}
     /*@media (max-width: 992px) {
       .process {
         margin-bottom: 45px;
@@ -123,7 +128,7 @@
     }
   		
 
-  		#Goals {
+  		.Goals {
  		height: 200px;
 		font-family: 'Bebas Neue', cursive;
 		letter-spacing: 2px;
@@ -133,11 +138,12 @@
 		text-align: center;
 		color: #484848;
   		}
-		@media only screen and (max-width: 150px) {
-  		#Goals {font-size: 8px}
-		}
+		@media only screen and (max-width: 600px) {
+  		.Goals {
+   			background-color: lightblue;
+  		}
 
-  		#Sponsorships {
+  		.Sponsorships {
  		height: 200px;
 		font-family: 'Bebas Neue', cursive;
 		letter-spacing: 2px;
@@ -147,11 +153,12 @@
 		text-align: center;
 		color: #484848;
   		}
-		@media only screen and (max-width: 150px) {
-  		#Sponsorships {font-size: 8px}
-		}
+		@media only screen and (max-width: 600px) {
+  		.Sponsorships {
+   			background-color: lightblue;
+  		}
 
-  		#Donation {
+  		.Donation {
  		height: 250px;
 		font-family: 'Bebas Neue', cursive;
 		letter-spacing: 2px;
@@ -161,9 +168,10 @@
 		text-align: center;
 		color: #484848;
   		}
-		@media only screen and (max-width: 150px) {
-  		#Donation {font-size: 8px}
-		}
+		@media only screen and (max-width: 600px) {
+  		.Donation {
+   			background-color: lightblue;
+  		}
 
 		}
 		
@@ -630,7 +638,7 @@ function showSlides(n) {
 			<!--</div> for style div-->
 	
 	<!--<div id="wrap">-->
-		<div class="main" id="MeetTheTeam">
+		<div class = "MeetTheTeam">
 			<div style="text-align: left; width: 700px; margin: 0 auto;">
 		    <br><br><br><br><br><br><br><br><br><br>
         
@@ -646,7 +654,7 @@ function showSlides(n) {
 
 	
 	<!--<div id="wrap">-->
-		<div class="main" id="OurProcess">
+		<div class = "OurProcess">
 			<div style="text-align: left; width: 700px; margin: 0 auto;">	
       <br><br><br><br><br><br><br><br>
 			<h1>Our Process</h1>
@@ -663,7 +671,8 @@ function showSlides(n) {
 
 
 	
-		<div class="main" id="Goals">
+		
+		<div class = "Goals">
 			<div style="text-align: left; width: 700px; margin: 0 auto;">
        <br><br><br><br><br><br>
 			<h1>Goals</h1>
@@ -673,7 +682,8 @@ function showSlides(n) {
 
 
 	
-		<div class="main" id="Sponsorships">
+		
+		<div class = "Sponsorships">
 			<div style="text-align: left; width: 700px; margin: 0 auto;">
       <br><br><br><br>
 
@@ -685,7 +695,8 @@ function showSlides(n) {
 	
 
 	
-		<div class="main" id="Donation">
+		
+		<div class = "Donation">
 			<div style="text-align: left; width: 700px; margin: 0 auto;">
        <br><br>
 
