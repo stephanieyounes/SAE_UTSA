@@ -86,8 +86,17 @@
   		}
 		
 		.teamimg{
-		width: 100px;	
+		width: 200px;
+		float: left; 
+		height: auto;"
 		}
+		@media only screen and (max-width: 600px) {
+  		.teamimg {
+   		position: static;
+		width: 100px;
+  		}
+		}
+		
 		.teamdesc{
 		font-size: 40px;	
 		}
@@ -655,7 +664,7 @@ function showSlides(n) {
 			</div>
 			
 			<div class="teamimg">
-  			<p style="float: left; width: 200px; height: auto;"> <img src="addons/team.png" alt="App"></p>
+  			<p><img src="addons/team.png" alt="App"></p>
 			</div>
 			
 			<div class = "teamdesc">
