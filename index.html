@@ -300,13 +300,13 @@
   		.ContactUs {
    		position: static;
 		height: 200px;
-		font-size: 20px;
+		font-size: 15px;
   		}
 		}
 		
 		/* SOCIAL MEDIA BUTTON */
 		.fa {
-  			padding: 20px;
+  			padding: 30px;
   			font-size: 30px;
   			width: 50px;
   			text-align: center;
@@ -324,8 +324,18 @@
   			background: #125688;
   			color: white;
 		}
+		@media only screen and (max-width: 600px) {
+  		.fa {
+   		padding: 15px;
+		font-size: 15px;
+		width: 25px;
+  		text-align: center;
+  		text-decoration: none;
+  		margin: 5px 2px;
+  		}
+		}
 		/* LINK TO SHEET */
-		a:link, a:visited {
+		#sheet a:link, a:visited {
   			color: lightblue;
   			padding: 14px 25px;
   			text-align: center;
@@ -335,6 +345,11 @@
 
 		a:hover, a:active {
   			background-color: grey;
+		}
+		@media only screen and (max-width: 600px) {
+  		.a:link, a:visited {
+   			padding: 7px 12px;
+  		}
 		}
 		
 		
@@ -954,9 +969,11 @@ function showSlides(n) {
 		
 		<span class="font2">
 			<center>BECOME PART OF THE TEAM!<br>
-			
+				
+			<div id="sheet">
 			<a href="https://docs.google.com/spreadsheets/d/1A71Znyn7CBrpUZL0sumX5WSBsfcWZblwX8i1fBpj5-s/edit#gid=0" target="_blank">JOIN TODAY</a>
 			</center>
+			</div>
 			
 			<br>
 			<center>FOLLOW US ON INSTAGRAM! <br>
